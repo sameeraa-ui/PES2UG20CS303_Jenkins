@@ -7,7 +7,7 @@ git branch:'main', url : 'https://github.com/sameeraa-ui/PES2UG20CS303_Jenkins.g
 }
 stage('Build'){
 steps{
-sh 'ma -C main' }
+sh 'make -C main' }
 }
 stage('Test'){
 steps{
