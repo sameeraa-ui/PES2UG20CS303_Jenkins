@@ -5,7 +5,7 @@ stage('Clone Repository'){
 steps{
 git branch:'main', url : 'https://github.com/sameeraa-ui/PES2UG20CS303_Jenkins.git' }
 }
-stage('Build'){
+stage('Buil'){
 steps{
 sh 'make -C main' }
 }
